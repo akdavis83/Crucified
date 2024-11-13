@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: black;
+}
+
+.sphere {
+  width: 20em;
+  height: 20em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -10em;
+  -webkit-animation: spinSphere 10s infinite linear;
+          animation: spinSphere 10s infinite linear;
+  transform-style: preserve-3d;
+}
+
+[class^=ring] {
+  position: absolute;
+  width: 20em;
+  height: 20em;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+[class$="1"] {
+  transform: rotateY(10deg);
+}
+
+[class$="2"] {
+  transform: rotateY(20deg);
+}
+
+[class$="3"] {
+  transform: rotateY(30deg);
+}
+
+[class$="4"] {
+  transform: rotateY(40deg);
+}
+
+[class$="5"] {
+  transform: rotateY(50deg);
+}
+
+[class$="6"] {
+  transform: rotateY(60deg);
+}
+
+[class$="7"] {
+  transform: rotateY(70deg);
+}
+
+[class$="8"] {
+  transform: rotateY(80deg);
+}
+
+[class$="9"] {
+  transform: rotateY(90deg);
+}
+
+[class$="10"] {
+  transform: rotateY(100deg);
+}
+
+[class$="11"] {
+  transform: rotateY(110deg);
+}
+
+[class$="12"] {
+  transform: rotateY(120deg);
+}
+
+[class$="13"] {
+  transform: rotateY(130deg);
+}
+
+[class$="14"] {
+  transform: rotateY(140deg);
+}
+
+[class$="15"] {
+  transform: rotateY(150deg);
+}
+
+[class$="16"] {
+  transform: rotateY(160deg);
+}
+
+[class$="17"] {
+  transform: rotateY(170deg);
+}
+
+[class$="18"] {
+  transform: rotateX(180deg);
+}
+
+[class$="19"] {
+  transform: rotateX(190deg);
+}
+
+[class$="20"] {
+  transform: rotateX(200deg);
+}
+
+[class$="21"] {
+  transform: rotateX(210deg);
+}
+
+[class$="22"] {
+  transform: rotateX(220deg);
+}
+
+[class$="23"] {
+  transform: rotateX(230deg);
+}
+
+[class$="24"] {
+  transform: rotateX(240deg);
+}
+
+[class$="25"] {
+  transform: rotateX(250deg);
+}
+
+[class$="26"] {
+  transform: rotateX(260deg);
+}
+
+[class$="27"] {
+  transform: rotateX(270deg);
+}
+
+[class$="28"] {
+  transform: rotateX(280deg);
+}
+
+[class$="29"] {
+  transform: rotateX(290deg);
+}
+
+[class$="30"] {
+  transform: rotateX(300deg);
+}
+
+[class$="31"] {
+  transform: rotateX(310deg);
+}
+
+[class$="32"] {
+  transform: rotateX(320deg);
+}
+
+[class$="33"] {
+  transform: rotateX(330deg);
+}
+
+[class$="34"] {
+  transform: rotateX(340deg);
+}
+
+[class$="35"] {
+  transform: rotateX(350deg);
+}
+
+[class$="36"] {
+  transform: rotateX(360deg);
+}
+
+@-webkit-keyframes spinSphere {
+  from {
+    transform: rotateZ(60deg) rotateX(0);
+  }
+  to {
+    transform: rotateZ(60deg) rotateX(360deg);
+  }
+}
+
+@keyframes spinSphere {
+  from {
+    transform: rotateZ(60deg) rotateX(0);
+  }
+  to {
+    transform: rotateZ(60deg) rotateX(360deg);
+  }
+}
